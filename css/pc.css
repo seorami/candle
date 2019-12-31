@@ -1,0 +1,156 @@
+/* pc.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#main_header {
+  background: rgba(0, 0, 0, 0.7);
+  height: 130px;
+}
+/* 유틸메뉴 */
+#main_header > .container {
+  position: relative;
+}
+#main_header .container #util {
+  position: absolute;
+  right: 30px; top: 16px;
+}
+#main_header .container #util li {
+  display: inline-block;
+  font-size: 13px;
+  padding-left: 20px;
+  color: #eee;
+}
+#main_header .container #util li:hover {
+  text-decoration-line: underline;
+}
+#util i {
+  display: none;
+}
+
+/* 메인메뉴 */
+#main_header .container {
+  position: relative;
+}
+#main_header > .container{
+  position: relative;
+}
+#main_header > .container > h1 {
+  position: relative;
+  left: 20px; top: 40px;
+}
+#main_header > .container #main_gnb {
+  position: absolute;
+  right: 8px;
+  /* text-align: center; */
+  margin-top: 30px;
+}
+#main_header > .container #main_gnb li {
+  display: inline-block;
+  margin-left: 1.3em; margin-right: 1.3em;
+  color: #fff;
+}
+#main_header > .container #main_gnb li:hover {
+  font-weight: bold;
+}
+#toggle {
+  display: none;
+}
+/* 타이틀 */
+#title {
+  background-image: url("../images/main4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  margin-bottom: 50px;
+}
+/* 베스트 */
+#best a {
+  float: left;
+  /* margin-right: 10px; */
+  /* margin-bottom: 50px; */
+}
+#best ul li:nth-child(5) {
+  margin-right: 0;
+}
+#best ul li:last-child {
+  margin-right: 0;
+}
+/* 추천상품 */
+#recommend {
+  position: relative;
+  clear: both;
+  background-image: url("../images/main1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+#recommend .title {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#recommend h3, p {
+  text-align: center;
+}
+.cta {
+  width: 160px; height: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.cta:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.4s;
+}
+/* 리미티드 */
+#limited ul {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+#limited ul li {
+  width: 32.33%;
+  float: left;
+  margin-right: 1.5%;
+  margin-bottom: 50px;
+}
+#limited ul li a:hover {
+  font-weight: bold;
+}
+#limited ul li:hover >  {
+
+}
+#limited ul li:last-child {
+  margin-right: 0;
+}
+#limited img {
+  width: 100%;
+}
+#limited .title {
+  display: block;
+  text-align: center;
+  /* font-size: 1.1em; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+  color: #777777;
+}
+#limited .price {
+  display: block;
+  text-align: center;
+  /* color: red; */
+  /* font-size: 1.2em; */
+  /* font-weight: bold; */
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+/* 푸터 */

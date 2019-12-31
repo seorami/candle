@@ -1,0 +1,157 @@
+/* common.css */
+
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #363636;
+  font-size: 100%;
+}
+h2 {
+  font-family: 'Gelasio', serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.8em;
+}
+h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.8em;
+}
+button { 
+  background: none;
+  border: none;
+  outline: none;
+}
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+#main_header {
+  position: absolute;
+  width: 100%;
+  /* background: #ccc; */
+}
+.slider {
+  width: 100%;
+}
+/* bxslider */
+#best .slider {
+  width: 100%;
+}
+.slider img {
+  /* width: 100%; */
+}
+#title p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8em;
+  line-height: 50px;
+}
+#title .cta {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translate(-50%,0);
+}
+/* 추천상품 */
+#recommend {
+  position: relative;
+  clear: both;
+  background-image: url("../images/main1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+#recommend .title {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#recommend h3, p {
+  text-align: center;
+  color: #fff;
+}
+.cta {
+  width: 160px; height: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.cta:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.4s;
+}
+.bx-wrapper {
+  border: none;
+}
+#recommend .hover {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+#recommend .cta:hover > #recommend .hover {
+  display: none;
+}
+/* footer */
+#main_footer address {
+  display: inline-block;
+  font-style: normal;
+}
+#main_footer p:nth-child(2) {
+  display: inline-block;
+}
+#main_footer {
+  position: relative;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  background: #1e1e1e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #666;
+  text-align: center;
+  font-size: 12px;
+}
+#main_footer p {
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+#main_footer p a, #main_footer address{
+  padding-bottom: 10px;
+  font-style: normal;
+  color: #fff;
+}
+#main_footer p span {
+  font-weight: bold;
+}
+.copyright {
+  padding-top: 20px;
+  font-size: 13px;
+}
